@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tar -cvf ~/Developer/bash_scripts/my_backup_"$(date +%m-%d-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+exit 0
